@@ -2,7 +2,7 @@
 
 - This README.md file is Ai generated
 
-Welcome to the Logistics Software! This software package allows you to simulate and analyze logistics operations using electronic circuit files (.circ) and a provided script called Test.py. Please follow the instructions below to install the software and load the required files.
+Welcome to the Datapath! This software package allows you to simulate and analyze logistics operations using electronic circuit files (.circ) and a provided script called Test.py. Please follow the instructions below to install the software and load the required files.
 
 ## Installation
 
@@ -12,7 +12,7 @@ To install and run the Logistics Software, please ensure that you have the follo
 Once you have Python installed, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
-  - git clone <git-url>
+  - git clone [git-repo-url]
 2. Navigate to the cloned directory:
   - cd Datapath 
 3. Install the required Python dependencies:
@@ -26,8 +26,8 @@ To load the SD_Group32.circ file and simulate the path, follow these steps:
 1. Ensure that you have the SD_Group32.circ file available on your machine. If not, obtain the file from a reliable source.
 2. Open a terminal or command prompt and navigate to the root directory of the Logistics Software.
 3. Run the following command to execute the simulation using Test.py:
-- python Test.py -f -t <test-file> -c SD_Group32.circ
-Replace <test-file> with the name of the test file you want to use for the simulation.
+- python Test.py -f -t [test-file] -c SD_Group32.circ
+Replace [test-file] with the name of the test file you want to use for the simulation.
 4. The simulation will start, and the software will attempt to recognize the components in the SD_Group32.circ file. However, if some components are not recognized, you may need to load additional .circ files to provide the necessary components.
 5. If prompted for missing components, locate the corresponding .circ files and load them into the simulation using the appropriate command or flag.
 6. Continue the simulation, and the Logistics Software will analyze the logistics path based on the loaded files.
